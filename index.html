@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<img src="./images/logo.svg" alt="">
+ <main>
+  <section class="entry page">
+    <h2>Bill</h2>
+
+    <div class="tip-entry">
+      <img src="./images/icon-dollar.svg" alt="">
+      <input type="text" name="" id="tipVal">
+    </div>
+
+    <div>
+    <h2>Select Tip %</h2>
+      <div class="select-tip">
+        <button class="tip-Num 1" value="5/100">5%</button>
+        <button class="tip-Num 2" value="10/100">10%</button>
+        <button class="tip-Num 3" value="15/100">15%</button>
+        <button class="tip-Num 4" value="25/100">25%</button>
+        <button class="tip-Num 5" value="50/100">50%</button>
+        <button class="num6" id="num6"><input type="text" placeholder="Custom" id="num-input"></div>
+        </button>
+    </div>
+
+    <div>
+    <div class="pple-head">
+      <h2>Number of People</h2>
+      <p id="error">Can't be zero</p>
+    </div>
+     <div class="people-count">
+      <img src="./images/icon-person.svg" alt="">
+      <input type="text" id="people-input">
+     </div>
+    </div>
+
+  </section>
+
+
+  <section class="results page">
+    
+   <div class="tip-results">
+
+    <div class="">
+      <h2>Tip Amount</h2>
+      <h3>/ Person</h3>
+    </div>
+
+    <div class="tip-display">
+      <img src="./images/icon-dollar.svg" alt="">
+      <h1 id="amount">0.00</h1>
+    </div>
+
+   </div>
+
+   <div class="tip-results">
+
+    <div class="">
+      <h2>Total</h2>
+      <h3>/ person</h3>
+    </div>
+
+    <div class="tip-display">
+      <img src="./images/icon-dollar.svg" alt="">
+      <h1 id="total">0.00</h1>
+    </div>
+
+   </div>
+   </div>
+
+   <button type="reset" id="reset">Reset</button>
+
+  </section>
+ </main>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+     
+    Coded by <a href="https://www.twitter.com/SRealgreat">Samson Realgreat</a>
+
+    <script src="app.js"></script>
+  </div>
+</body>
+</html>
